@@ -15,8 +15,6 @@ const Post = props => {
     setLike(likes => likes + 1);
   }
 
-  // console.log(props);
-
   return (
     <div key={props.post.key} className="post-border">
       <PostHeader

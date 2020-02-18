@@ -22,7 +22,7 @@ const SearchBar = () => {
           <i className="far fa-heart" />
         </div>
         <div className="social">
-          <i className="far fa-user-circle" />
+          <i className="fas fa-user" />
         </div>
       </div>
     </div>
