@@ -7,15 +7,34 @@
   background: #ffffff;
 }
 .search-form {
-  width: 150px;
+  width: 250px;
   font-size: 14px;
 }
 .search-form input {
+  width: 100%;
   text-align: center;
   color: #262626;
+  border: 1px solid #dbdbdb;
+  background: #f4f4f4;
+  border-radius: 3px;
+  line-height: 1.7;
 }
+.search-form::before {
+  font-family: "Font Awesome 5 Free";
+  content: '/f002';
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+}
+
 .image-wrapper {
+  display: flex;
+  align-items: center;
   height: 50px;
+}
+
+.fa-instagram {
+  font-size: 32px;
 }
 
 .logo-image {
@@ -23,9 +42,11 @@
 }
 
 .social-wrapper {
+  font-size: 32px;
   display: flex;
 }
 
 .social {
   width: 50px;
+  padding: 5px;
 }
